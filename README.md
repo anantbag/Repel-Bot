@@ -83,6 +83,7 @@ source venv/bin/activate
 bash
 pip install -r requirements.txt
 4. Install Robocorp CLI
+
 bash
 pip install robocorp-cli
 rcc configure identity
