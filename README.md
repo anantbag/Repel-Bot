@@ -84,53 +84,8 @@ bash
 pip install -r requirements.txt
 4. Install Robocorp CLI
 
-bash
-pip install robocorp-cli
-rcc configure identity
-📁 Project Structure
-text
-robocorp-automation/
-├── 📂 .vscode/
-│   ├── settings.json
-│   └── launch.json
-├── 📂 tasks/
-│   ├── __init__.py
-│   ├── invoice_processor.py
-│   ├── data_extraction.py
-│   └── report_generator.py
-├── 📂 libraries/
-│   ├── __init__.py
-│   ├── database/
-│   │   ├── connector.py
-│   │   └── queries.py
-│   └── utils/
-│       ├── decorators.py
-│       └── validators.py
-├── 📂 resources/
-│   ├── keywords.robot
-│   ├── variables.py
-│   └── test_data/
-├── 📂 config/
-│   ├── conda.yaml
-│   ├── robot.yaml
-│   └── devdata/
-│       ├── work-items-in/
-│       └── work-items-out/
-├── 📂 tests/
-│   ├── unit/
-│   ├── integration/
-│   └── fixtures/
-├── 📂 docs/
-│   ├── api/
-│   └── examples/
-├── 📂 scripts/
-│   ├── setup.sh
-│   └── deploy.py
-├── .gitignore
-├── requirements.txt
-├── README.md
-└── LICENSE
-⚙️ Configuration
+
+# ⚙️ Configuration
 conda.yaml
 yaml
 channels:
